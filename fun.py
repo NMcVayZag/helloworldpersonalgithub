@@ -58,8 +58,22 @@ print("test")
 print("hope this shoes on github")
 # negation or negativity has the secondary priority in pemdas or operation precedence ex. x= -4 / 8 *(32/2)
 #exersize:
-m=int(input("enter an integer> "))
-n=int(input("enter an integer> "))
-m= m+5
-n= 3*n
-print("m =", m, "\nn =", n)  #\n can be used within a str to spawn a new line
+#m=int(input("enter an integer> "))
+#n=int(input("enter an integer> "))
+#m= m+5
+#n= 3*n
+#print("m =", m, "\nn =", n)  #\n can be used within a str to spawn a new line
+
+#else keyword for conditionals
+if x==6:
+    print("x is 6")
+else:
+    print("x is not 6")
+#elif is used to test a number of if statements to test in a row #if elif elif then else.
+x = 5
+if x<0:
+    print("x is negative")
+elif x>0:
+    print("x is positive")
+else:
+    print("x is zero")
