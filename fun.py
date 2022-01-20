@@ -62,4 +62,4 @@ m=int(input("enter an integer> "))
 n=int(input("enter an integer> "))
 m= m+5
 n= 3*n
-print("m =", m, "\nn =", n)
+print("m =", m, "\nn =", n)  #\n can be used within a str to spawn a new line
