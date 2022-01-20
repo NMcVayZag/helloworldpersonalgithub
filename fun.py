@@ -77,3 +77,31 @@ elif x>0:
     print("x is positive")
 else:
     print("x is zero")
+
+#LOOPs
+# for loops and while loops 
+for character in "gonzaga":
+    print(character,end="*")
+print("\n")
+
+#range example
+#range(9) generates a sequence [0,9) #9 isn't called into the loop
+for i  in range(0,9):
+    print(i, end=" ")
+print("\n")
+for i in range(2,42,2):
+    if i==40:
+        print(i)
+    else:
+        print(i,end=", ")
+print("\n")
+for i in range(8,3,-2):
+    print(i, end=" ")
+
+#while loop structure
+k = 2
+while k <= 40:
+    print(k,end=", ")
+    k +=2
+print(k)
+
