@@ -105,3 +105,7 @@ while k <= 40:
     k +=2
 print(k)
 
+#funtions are a named sequence of statements  
+#write it once use it manytimes
+#helps with code organization
+#no funtions used for DA1
