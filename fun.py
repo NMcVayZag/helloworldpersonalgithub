@@ -56,3 +56,10 @@ print(18//4)
 print(2**2**3*3)
 print("test")
 print("hope this shoes on github")
+# negation or negativity has the secondary priority in pemdas or operation precedence ex. x= -4 / 8 *(32/2)
+#exersize:
+m=int(input("enter an integer> "))
+n=int(input("enter an integer> "))
+m= m+5
+n= 3*n
+print("m =", m, "\nn =", n)
